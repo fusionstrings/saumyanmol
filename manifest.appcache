@@ -1,0 +1,39 @@
+# Hello from Yeoman! (undefined, #undefined)
+CACHE MANIFEST
+
+# Time: Sat Feb 09 2013 22:19:11 GMT+0530 (India Standard Time)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\yeoman\lib\support\confess.json
+
+CACHE:
+components/bootstrap/docs/assets/img/examples/browser-icon-chrome.png
+components/bootstrap/docs/assets/img/examples/browser-icon-firefox.png
+components/bootstrap/docs/assets/img/examples/browser-icon-safari.png
+http://code.jquery.com/jquery-1.9.1.min.js
+http://localhost:3501/img/glyphicons-halflings-white.png
+http://localhost:3501/img/glyphicons-halflings.png
+images/089e58d5.slide-01.jpg
+images/1f8271cb.slide-03.jpg
+images/d137c9c0.slide-02.jpg
+scripts/amd-app.js
+scripts/vendor/bootstrap.min.js
+styles/main.css
+
+NETWORK:
+*
