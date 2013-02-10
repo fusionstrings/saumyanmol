@@ -5,9 +5,26 @@
     /* Padding below the footer and lighter body text */
 
     body {
-      padding-bottom: 40px;
-      background: #d85d55 url("../images/goldenrod-texture.jpg") repeat left top;
-      color: #d4403c;
+      background: rgba(244, 201, 79, 1.0)  url("../images/goldenrod-texture.jpg") repeat left top;
+      font-family: TangerineBold, WindsongRegular, sans-serif;
+      color: #d4403c;      
+      text-shadow: 0 1px 1px rgba(250, 206, 206, 0.4);
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    h2{
+      font-family: FloranteatLauraRegular, PacificoRegular, BlackJackRegular, DesyrelRegular, sans-serif;
+    }
+
+    footer{
+      background: #fff  url("../images/hot-coral-texture.jpg") repeat left top;
+      color: rgba(244, 201, 79, 1.0);
+      font-family: MenschRegular, sans-serif;
+      padding: 40px 0;
+      a{
+        color: #fff;
+      }
     }
 
     .sym{
@@ -128,33 +145,46 @@
       color: #fff;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
     }
+
     .carousel-caption h1{
       font-family: WindsongRegular, sans-serif;
       font-size: 60px;
     }
     .carousel-caption .lead{
       font-family: DesyrelRegular, sans-serif;
-      font-size: 30px;
+      font-size: 30px;      
+      margin: 0 0 10px;
     }
     .carousel-caption .btn {
       margin-top: 10px;
     }
 
+    .carousel-caption .small{
+      font-size: 20px !important;
+    }
 
 
-    /* MARKETING CONTENT
+
+    /* wedding CONTENT
     -------------------------------------------------- */
 
     /* Center align the text within the three columns below the carousel */
-    .marketing .span4 {
+    .wedding .span4 {
+      text-align: center;
+      //font-family: MenschRegular;
+      //font-size: 16px;
+    }
+    .wedding h2 {
+      font-weight: normal;
       text-align: center;
     }
-    .marketing h2 {
-      font-weight: normal;
-    }
-    .marketing .span4 p {
+    .wedding .span4 p {
       margin-left: 10px;
       margin-right: 10px;
+    }
+
+    .wedding strong{
+      //font-family: MenschBold;
     }
 
 
@@ -180,7 +210,7 @@
       margin-left: 40px;
     }
 
-    /* Thin out the marketing headings */
+    /* Thin out the wedding headings */
     .featurette-heading {
       font-size: 50px;
       font-weight: 300;
@@ -258,7 +288,7 @@
         font-size: 18px;
       }
 
-      .marketing .span4 + .span4 {
+      .wedding .span4 + .span4 {
         margin-top: 40px;
       }
 

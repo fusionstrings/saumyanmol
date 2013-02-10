@@ -1,7 +1,7 @@
 # Hello from Yeoman! (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Sun Feb 10 2013 14:58:05 GMT+0530 (India Standard Time)
+# Time: Mon Feb 11 2013 01:01:03 GMT+0530 (India Standard Time)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -24,13 +24,18 @@ CACHE MANIFEST
 CACHE:
 http://code.jquery.com/jquery-1.9.1.min.js
 http://localhost:3501/images/goldenrod-texture.jpg
+http://localhost:3501/images/hot-coral-texture.jpg
 http://localhost:3501/img/glyphicons-halflings-white.png
 http://localhost:3501/img/glyphicons-halflings.png
+images/1ab25f51.wedding.jpg
+images/7cbfdc35.sangeet.jpg
 images/879e6a72.slide-03.jpg
 images/b66cc4d2.slide-01.jpg
+images/cac842f3.reception.jpg
+images/dbe956b7.anmol.jpg
+images/ea2e9322.saumya.jpg
 scripts/amd-app.js
 scripts/vendor/bootstrap.min.js
-scripts/vendor/jquery.min.js
 styles/main.css
 
 NETWORK:
