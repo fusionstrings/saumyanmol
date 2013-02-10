@@ -1,21 +1,24 @@
 @import "bootstrap";
-
+@import "fonts";
 /* GLOBAL STYLES
     -------------------------------------------------- */
     /* Padding below the footer and lighter body text */
 
     body {
       padding-bottom: 40px;
-      color: #5a5a5a;
+      background: #d85d55 url("../images/goldenrod-texture.jpg") repeat left top;
+      color: #d4403c;
     }
 
-
+    .sym{
+      font-family: WindsongRegular, BlackJackRegular, DesyrelRegular, sans-serif;
+    }
 
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
 
     /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
+    .navbar-wrapper, header {
       position: absolute;
       top: 0;
       left: 0;
@@ -24,6 +27,26 @@
       margin-top: 20px;
       margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
     }
+
+    header{
+      text-align: center;
+      margin-bottom: 110px;
+      color: #fff;
+      font-family: MenschRegular, sans-serif;
+      font-size: 16px;
+    }
+
+     header h1{
+      font-family: MenschBoldInline, sans-serif;
+      font-size: 60px;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      width: 450px;
+      padding-top: 30px;
+      margin: 0 auto;
+      padding-top: 30;
+    }
+
     .navbar-wrapper .navbar {
 
     }
@@ -93,9 +116,10 @@
     .carousel-caption {
       background-color: transparent;
       position: static;
-      max-width: 550px;
+      max-width: 750px;
       padding: 0 20px;
-      margin-top: 200px;
+      margin: 200px auto;
+      text-align: center;
     }
     .carousel-caption h1,
     .carousel-caption .lead {
@@ -103,6 +127,14 @@
       line-height: 1.25;
       color: #fff;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption h1{
+      font-family: WindsongRegular, sans-serif;
+      font-size: 60px;
+    }
+    .carousel-caption .lead{
+      font-family: DesyrelRegular, sans-serif;
+      font-size: 30px;
     }
     .carousel-caption .btn {
       margin-top: 10px;
